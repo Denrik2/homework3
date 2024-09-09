@@ -53,8 +53,29 @@ public class Main {
         float breakfastT = breakfast;
         float breakfastKg = breakfastT / 1000;
         System.out.println("В килограммах: " + breakfastKg);
-
+        
         //Задание №7
+        float diet1 = 7 / 0.250f;
+        float diet2 = 7 / 0.500f;
+        float days = (diet1 + diet2) / 2;
+        System.out.println("Задача №7");
+        System.out.println("На первой диете спортсмену понадобиться " + diet1 + " дней.");
+        System.out.println("На второй диете спортсмену понадобиться " + diet2 + " дней.");
+        System.out.println("В среднем спортсмену понядобиться " + days + " дней");
 
+        //Задание №8
+        float salaryMasha = 67760.0f;
+        float salaryDenis = 83690.0f;
+        float salaryChristina = 76230.0f;
+        float salaryMashaUP = salaryMasha * 1.10f;
+        float salaryDenisUP = salaryDenis * 1.10f;
+        float salaryChristinaUP = salaryChristina * 1.10f;
+        System.out.println("Задача №8");
+        System.out.println("Маша теперь получает " + salaryMashaUP + " рублей. Годовой доход вырос на "
+                + (salaryMashaUP - salaryMasha) + " рублей");
+        System.out.println("Денис теперь получает " + salaryDenisUP + " рублей. Годовой доход вырос на " +
+                (salaryDenisUP - salaryDenis) + " рублей");
+        System.out.println("Кристина теперь получает " + salaryChristinaUP + " рублей. Годовой доход вырос" +
+                " на " + (salaryChristinaUP - salaryChristina) + " рублей");
     }
 }
